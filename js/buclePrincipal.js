@@ -9,16 +9,16 @@ var buclePrincipal = {
 		ultimoRegistro: 0,
 		aps: 0,
 		fps: 0,
-		iterar: function(){
-
-		}
+		iterar: function(registroTemporal){
+			buclePrincipal.idEjecucion = window.requestAnimationFrame(buclePrincipal.iterar); //<---RECURSIVIDAD
+		},//Iterar
 		detener: function(){
 
-		}
-		actualizar: function(){
+		},//Detener
+		actualizar: function(registroTemporal){
 
-		}
-		dibujar: function(){
+		},//Actualizar
+		dibujar: function(registroTemporal){
 
-		}
+		}//Dibujar
 };
