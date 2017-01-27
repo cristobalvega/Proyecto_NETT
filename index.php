@@ -11,6 +11,7 @@
 			<h1>Proyecto NETT</h1>
 			<h3>No Es TecTime-out</h3>
 			<script src="js/buclePrincipal.js"></script>
+			<script src="js/dimensiones.js"></script>
 			<script src="js/inicio.js"></script>
 	</body>
 </html>
