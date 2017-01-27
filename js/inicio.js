@@ -1,9 +1,17 @@
 document.addEventListener(
 	'DOMContentLoaded',
 	 function() {
-	 	console.log("Si funcioná Javascript ");
+	 	//console.log("Si funcioná Javascript ");
 	 	//alert("Si funcioná Javascript");
-	 }, 
-	 false);
-
+		inicio.iniciarJuego();
+	 },
+	 false
+ );
 // DOM = Docuemnt Object Model
+
+var inicio = {
+	iniciarJuego: function() {
+		console.log("Juego Inciado");
+		buclePrincipal.iterar();
+	}//iniciarJuego
+};
