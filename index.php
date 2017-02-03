@@ -8,8 +8,10 @@
 		<meta name="author" content="Cristobal Vega">
 	</head>
 	<body>
-			<h1>Proyecto NETT</h1>
-			<h3>No Es TecTime-out</h3>
+			<div id="juego">
+
+			</div>
+			<script src="js/rectangulo.js"></script>
 			<script src="js/buclePrincipal.js"></script>
 			<script src="js/dimensiones.js"></script>
 			<script src="js/inicio.js"></script>

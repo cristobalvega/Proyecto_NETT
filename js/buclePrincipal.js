@@ -16,6 +16,7 @@ var buclePrincipal = {
 
 			buclePrincipal.actualizar(registroTemporal); //<-A registroTemporal lo llama el requestAnimationFrame
 			buclePrincipal.dibujar(registroTemporal);
+			
 
 			if(registroTemporal - buclePrincipal.ultimoRegistro > 999){
 				buclePrincipal.ultimoRegistro = registroTemporal;
