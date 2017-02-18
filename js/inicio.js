@@ -12,6 +12,7 @@ document.addEventListener(
 var inicio = {
 	iniciarJuego: function() {
 		console.log("Juego Inciado");
+		teclado.iniciar();
 		dimensiones.iniciar();
 		inicio.recargarTiles();
 		buclePrincipal.iterar();

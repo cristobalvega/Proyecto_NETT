@@ -29,6 +29,7 @@ var buclePrincipal = {
 
 		},//Detener
 		actualizar: function(registroTemporal){
+			teclado.reiniciar();
 			buclePrincipal.aps++;
 		},//Actualizar
 		dibujar: function(registroTemporal){
